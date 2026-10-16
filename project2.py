@@ -5,7 +5,7 @@ place = input("Do you exit the Hive or go deeper? ")
 if place == "exit":
     print("You walk towards the exit. As you are about to leave, a Hive Guard releases greeting pheromones.")
     print("You greet him back and head off in search for food.")
-elif place == "Go deeper":
+elif place == "Go deeper" or place == "go deeper":
     print("You head down into a tunnel, and enter the main Hive Plaza.")
     print("Terminids of all kinds come to this center of commerce for all sorts of activities.")
     print("A Bile Titan, hauling supplies looks down and sees you, eyeing you curiously.")
@@ -15,7 +15,7 @@ else:
 action = input("Do you wish to greet him, or hitch a ride?")
 if action == "Greet him":
     print("You greet the Bile Titan affectionately. That seemed to have made his day.")
-elif action == "Hitch a ride":
+elif action == "Hitch a ride" or action == "hitch a ride":
     print("You request to take a ride on the Bile Titan.")
     print("Hearing this, he nods happily.")
     print("You clamber up his leg and onto his back, securing your legs on the braces.")
