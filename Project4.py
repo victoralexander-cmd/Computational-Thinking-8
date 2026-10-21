@@ -1,7 +1,8 @@
 import random
      
 hidden_number = random.randint(1,100)
-for I in range (10):
+for I in range (8):
+    #Line 4 repeats from line 6 to line 12.
     guess = int(input ("Choose a number between 1-100. "))
     if guess == hidden_number:
         print ("You got it right, congratulations!")
